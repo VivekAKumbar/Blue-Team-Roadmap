@@ -1,61 +1,233 @@
-# 🌐 Cisco Packet Tracer Journey
+# 🌐 Cisco Packet Tracer Learning Roadmap
 
-> Learning Networking one packet at a time.
-
-Welcome to my Cisco Packet Tracer lab repository! This repository contains my hands-on networking practice, CCNA concepts, and cybersecurity-related network simulations.
-
-## 🚀 What You'll Find Here
-
-🔹 Basic Network Topologies  
-🔹 Switching & VLANs  
-🔹 Routing Protocols  
-🔹 DHCP & DNS Configuration  
-🔹 Access Control Lists (ACLs)  
-🔹 Network Security Labs  
-🔹 Troubleshooting Exercises
-
-## 🛠️ Tools
-
-- Cisco Packet Tracer
-- Windows 11
-- Command Prompt
-- Wireshark (Future Labs)
-
-## 📂 Labs
-
-| Lab | Topic |
-|------|--------|
-| 01 | Basic Network Setup |
-| 02 | Switch Configuration |
-| 03 | VLAN Configuration |
-| 04 | Static Routing |
-| 05 | DHCP Server |
-| 06 | ACL Security |
-| 07 | Enterprise Network |
-
-## 🎯 Current Goal
-
-- Learn CCNA Fundamentals
-- Build Strong Networking Skills
-- Prepare for SOC Analyst Roles
-- Start a Career in Cybersecurity
-
-## 📈 Learning Progress
-
-🟩 Networking Fundamentals  
-🟩 Switching  
-🟨 Routing  
-🟨 Network Security  
-⬜ Advanced Cybersecurity Labs
-
-## 👨‍💻 About Me
-
-**Vivek A K**
-
-🎓 Diploma Student  
-🛡️ Aspiring Cybersecurity Professional  
-🌐 Networking Enthusiast
+> From Beginner → CCNA Fundamentals → Cybersecurity Networking
 
 ---
 
-⭐ If you're learning networking too, feel free to explore these labs!
+# 1️⃣ Networking Fundamentals
+
+| Type | Task |
+|------|------|
+| 📖 THEORY | What is a Network? |
+| 📖 THEORY | LAN, WAN, MAN, PAN |
+| 📖 THEORY | Network Devices (Router, Switch, Hub, Firewall) |
+| 📖 THEORY | OSI Model (7 Layers) |
+| 📖 THEORY | TCP/IP Model |
+| 📖 THEORY | Encapsulation Process |
+| 📖 THEORY | Ports & Protocols |
+| 🛠️ PRACTICAL | Build a simple PC-to-PC network |
+| 🛠️ PRACTICAL | Test connectivity using Ping |
+
+### Checklist
+
+- [ ] Know OSI Model
+- [ ] Know TCP/IP Model
+- [ ] Understand encapsulation
+- [ ] Explain common protocols
+
+---
+
+# 2️⃣ IP Addressing & Subnetting
+
+| Type | Task |
+|------|------|
+| 📖 THEORY | IPv4 Structure |
+| 📖 THEORY | Public vs Private IP |
+| 📖 THEORY | CIDR Notation |
+| 📖 THEORY | Subnet Masks |
+| 📖 THEORY | NAT Basics |
+| 📖 THEORY | IPv6 Basics |
+| 🛠️ PRACTICAL | Configure Static IPs |
+| 🛠️ PRACTICAL | Calculate Network Address |
+| 🛠️ PRACTICAL | Calculate Broadcast Address |
+| 🛠️ PRACTICAL | Practice Subnetting |
+
+### Checklist
+
+- [ ] Know private IP ranges
+- [ ] Calculate subnet ranges
+- [ ] Configure static IPs
+- [ ] Understand NAT
+
+---
+
+# 3️⃣ Switching
+
+| Type | Task |
+|------|------|
+| 📖 THEORY | MAC Address |
+| 📖 THEORY | ARP Protocol |
+| 📖 THEORY | Hub vs Switch |
+| 📖 THEORY | MAC Address Table |
+| 🛠️ PRACTICAL | Connect PCs through Switch |
+| 🛠️ PRACTICAL | Verify MAC Learning |
+| 🛠️ PRACTICAL | Use show mac-address-table |
+
+### Checklist
+
+- [ ] Understand switching
+- [ ] Explain ARP
+- [ ] Verify MAC table
+
+---
+
+# 4️⃣ VLANs
+
+| Type | Task |
+|------|------|
+| 📖 THEORY | VLAN Concepts |
+| 📖 THEORY | Access Ports |
+| 📖 THEORY | Trunk Ports |
+| 📖 THEORY | Inter-VLAN Routing |
+| 🛠️ PRACTICAL | Create VLANs |
+| 🛠️ PRACTICAL | Assign Ports |
+| 🛠️ PRACTICAL | Configure Trunks |
+
+### Checklist
+
+- [ ] Create VLANs
+- [ ] Configure Trunks
+- [ ] Test VLAN Communication
+
+---
+
+# 5️⃣ Routing
+
+| Type | Task |
+|------|------|
+| 📖 THEORY | Router Basics |
+| 📖 THEORY | Routing Tables |
+| 📖 THEORY | Static Routing |
+| 📖 THEORY | Default Route |
+| 📖 THEORY | Dynamic Routing Concepts |
+| 🛠️ PRACTICAL | Configure Static Routes |
+| 🛠️ PRACTICAL | Configure Default Route |
+| 🛠️ PRACTICAL | Verify Routing Table |
+
+### Checklist
+
+- [ ] Configure static routes
+- [ ] Verify routing table
+- [ ] Troubleshoot routing issues
+
+---
+
+# 6️⃣ DHCP & DNS
+
+| Type | Task |
+|------|------|
+| 📖 THEORY | DHCP Process |
+| 📖 THEORY | DNS Resolution |
+| 📖 THEORY | Client-Server Model |
+| 🛠️ PRACTICAL | Configure DHCP Server |
+| 🛠️ PRACTICAL | Configure DNS Server |
+| 🛠️ PRACTICAL | Test Name Resolution |
+
+### Checklist
+
+- [ ] Configure DHCP
+- [ ] Configure DNS
+- [ ] Verify IP assignment
+
+---
+
+# 7️⃣ Access Control Lists (ACL)
+
+| Type | Task |
+|------|------|
+| 📖 THEORY | Standard ACL |
+| 📖 THEORY | Extended ACL |
+| 📖 THEORY | ACL Placement Rules |
+| 🛠️ PRACTICAL | Create Standard ACL |
+| 🛠️ PRACTICAL | Create Extended ACL |
+| 🛠️ PRACTICAL | Restrict Traffic |
+
+### Checklist
+
+- [ ] Configure ACLs
+- [ ] Verify filtering
+- [ ] Troubleshoot ACLs
+
+---
+
+# 8️⃣ Network Security
+
+| Type | Task |
+|------|------|
+| 📖 THEORY | CIA Triad |
+| 📖 THEORY | Threats & Vulnerabilities |
+| 📖 THEORY | Firewalls |
+| 📖 THEORY | IDS & IPS |
+| 📖 THEORY | VPN Basics |
+| 🛠️ PRACTICAL | Configure Basic Security |
+| 🛠️ PRACTICAL | Test ACL Security |
+
+### Checklist
+
+- [ ] Understand network threats
+- [ ] Understand firewalls
+- [ ] Understand VPNs
+
+---
+
+# 9️⃣ Troubleshooting
+
+| Type | Task |
+|------|------|
+| 📖 THEORY | Troubleshooting Methodology |
+| 📖 THEORY | OSI Troubleshooting |
+| 🛠️ PRACTICAL | Use Ping |
+| 🛠️ PRACTICAL | Use Tracert |
+| 🛠️ PRACTICAL | Use ipconfig |
+| 🛠️ PRACTICAL | Fix Broken Networks |
+
+### Checklist
+
+- [ ] Troubleshoot connectivity
+- [ ] Use diagnostic commands
+- [ ] Identify routing issues
+
+---
+
+# 🔟 Mini Projects
+
+| Project | Skills |
+|----------|--------|
+| Small Office Network | IP Addressing, Switching |
+| College Network | VLANs, Routing |
+| Enterprise Network | ACLs, DHCP, DNS |
+| Secure Network | Security, ACLs |
+| Multi-Branch Company | Routing, VLANs |
+
+### Checklist
+
+- [ ] Build Office Network
+- [ ] Build College Network
+- [ ] Build Enterprise Network
+- [ ] Document Projects
+
+---
+
+# 📊 Progress Tracker
+
+- [ ] Networking Fundamentals
+- [ ] IP Addressing & Subnetting
+- [ ] Switching
+- [ ] VLANs
+- [ ] Routing
+- [ ] DHCP & DNS
+- [ ] ACLs
+- [ ] Network Security
+- [ ] Troubleshooting
+- [ ] Mini Projects
+
+---
+
+## 👨‍💻 Author
+
+**Vivek A K**
+
+🛡️ Aspiring SOC Analyst  
+🌐 Networking & Cybersecurity Enthusiast
+
+> "Learning Networking one packet at a time."
