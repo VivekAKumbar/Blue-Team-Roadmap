@@ -19,7 +19,7 @@
 
 | # | Phase | Folder | Status | Progress |
 |:-:|-------|--------|:------:|----------|
-| 01 | Networking Fundamentals | [📁 phase-01-networking](./phase-01-networking/) | 🟡 In Progress | `░░░░░░░░░░` 0% |
+| 01 | Networking Fundamentals | [📁 phase-01-networking](./phase-01-networking/) | 🟡 In Progress | `░░░░░░░░░░` 30% |
 | 02 | Windows Essentials | [📁 phase-02-windows](./phase-02-windows/) | ⬜ Not Started | `░░░░░░░░░░` 0% |
 | 03 | Linux Command Line | [📁 phase-03-linux](./phase-03-linux/) | ⬜ Not Started | `░░░░░░░░░░` 0% |
 | 04 | Scripting & Automation | [📁 phase-04-scripting](./phase-04-scripting/) | ⬜ Not Started | `░░░░░░░░░░` 0% |
