@@ -1,0 +1,61 @@
+# 🌐 Cisco Packet Tracer Journey
+
+> Learning Networking one packet at a time.
+
+Welcome to my Cisco Packet Tracer lab repository! This repository contains my hands-on networking practice, CCNA concepts, and cybersecurity-related network simulations.
+
+## 🚀 What You'll Find Here
+
+🔹 Basic Network Topologies  
+🔹 Switching & VLANs  
+🔹 Routing Protocols  
+🔹 DHCP & DNS Configuration  
+🔹 Access Control Lists (ACLs)  
+🔹 Network Security Labs  
+🔹 Troubleshooting Exercises
+
+## 🛠️ Tools
+
+- Cisco Packet Tracer
+- Windows 11
+- Command Prompt
+- Wireshark (Future Labs)
+
+## 📂 Labs
+
+| Lab | Topic |
+|------|--------|
+| 01 | Basic Network Setup |
+| 02 | Switch Configuration |
+| 03 | VLAN Configuration |
+| 04 | Static Routing |
+| 05 | DHCP Server |
+| 06 | ACL Security |
+| 07 | Enterprise Network |
+
+## 🎯 Current Goal
+
+- Learn CCNA Fundamentals
+- Build Strong Networking Skills
+- Prepare for SOC Analyst Roles
+- Start a Career in Cybersecurity
+
+## 📈 Learning Progress
+
+🟩 Networking Fundamentals  
+🟩 Switching  
+🟨 Routing  
+🟨 Network Security  
+⬜ Advanced Cybersecurity Labs
+
+## 👨‍💻 About Me
+
+**Vivek A K**
+
+🎓 Diploma Student  
+🛡️ Aspiring Cybersecurity Professional  
+🌐 Networking Enthusiast
+
+---
+
+⭐ If you're learning networking too, feel free to explore these labs!
