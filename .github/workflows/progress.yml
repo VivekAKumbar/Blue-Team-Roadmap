@@ -1,0 +1,123 @@
+name: Update Progress
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  update-progress:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Calculate progress and update README
+        run: |
+          python3 << 'EOF'
+          import re
+          import os
+
+          phases = [
+            ("phase-01-networking", "01", "Networking Fundamentals"),
+            ("phase-02-windows", "02", "Windows Essentials"),
+            ("phase-03-linux", "03", "Linux Command Line"),
+            ("phase-04-scripting", "04", "Scripting & Automation"),
+            ("phase-05-security", "05", "Security Fundamentals"),
+            ("phase-06-tools", "06", "Blue Team Tools"),
+            ("phase-07-certifications", "07", "Certifications"),
+            ("phase-08-practice", "08", "Hands-On Practice"),
+            ("phase-09-portfolio", "09", "Build Your Portfolio"),
+            ("phase-10-get-hired", "10", "Get Hired"),
+          ]
+
+          def count_checkboxes(filepath):
+            if not os.path.exists(filepath):
+              return 0, 0
+            with open(filepath, "r") as f:
+              content = f.read()
+            total = len(re.findall(r'- \[.\]', content))
+            done = len(re.findall(r'- \[x\]', content, re.IGNORECASE))
+            return done, total
+
+          def make_bar(percent, length=10):
+            filled = int(percent / 100 * length)
+            bar = "█" * filled + "░" * (length - filled)
+            return f"`{bar}` {percent}%"
+
+          def get_status(percent):
+            if percent == 0:
+              return "⬜ Not Started"
+            elif percent == 100:
+              return "✅ Complete"
+            else:
+              return "🟡 In Progress"
+
+          total_done = 0
+          total_all = 0
+          phase_rows = []
+
+          for folder, num, name in phases:
+            path = f"{folder}/README.md"
+            done, total = count_checkboxes(path)
+            total_done += done
+            total_all += total
+            percent = int((done / total * 100)) if total > 0 else 0
+            bar = make_bar(percent)
+            status = get_status(percent)
+            phase_rows.append(f"| {num} | [{name}](./{folder}/) | {status} | {bar} |")
+
+          overall = int((total_done / total_all * 100)) if total_all > 0 else 0
+          overall_bar = make_bar(overall)
+
+          current_phase = "10 — Get Hired"
+          for folder, num, name in phases:
+            path = f"{folder}/README.md"
+            done, total = count_checkboxes(path)
+            percent = int((done / total * 100)) if total > 0 else 0
+            if percent < 100:
+              current_phase = f"{num} — {name}"
+              break
+
+          table = "\n".join(phase_rows)
+
+          with open("README.md", "r") as f:
+            content = f.read()
+
+          content = re.sub(
+            r'Overall_Progress-\d+%25',
+            f'Overall_Progress-{overall}%25',
+            content
+          )
+
+          new_table = f"<!-- PROGRESS_START -->\n| # | Phase | Status | Progress |\n|:-:|-------|:------:|----------|\n{table}\n<!-- PROGRESS_END -->"
+          content = re.sub(
+            r'<!-- PROGRESS_START -->.*?<!-- PROGRESS_END -->',
+            new_table,
+            content,
+            flags=re.DOTALL
+          )
+
+          new_overall = f"<!-- OVERALL_START -->\n**Overall Progress:** {overall_bar} ({total_done}/{total_all} tasks)\n<!-- OVERALL_END -->"
+          content = re.sub(
+            r'<!-- OVERALL_START -->.*?<!-- OVERALL_END -->',
+            new_overall,
+            content,
+            flags=re.DOTALL
+          )
+
+          with open("README.md", "w") as f:
+            f.write(content)
+
+          print(f"Done: {total_done}/{total_all} = {overall}%")
+          EOF
+
+      - name: Commit updated README
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --staged --quiet || git commit -m "bot: auto-update progress [skip ci]"
+          git push
