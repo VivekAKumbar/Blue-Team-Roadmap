@@ -18,7 +18,7 @@
 ---
 
 <!-- OVERALL_START -->
-**Overall Progress:** `░░░░░░░░░░` 0% (0/441 tasks)
+**Overall Progress:** `░░░░░░░░░░` 0% (1/441 tasks)
 <!-- OVERALL_END -->
 
 ---
@@ -28,7 +28,7 @@
 <!-- PROGRESS_START -->
 | # | Phase | Status | Progress |
 |:-:|-------|:------:|----------|
-| 01 | [Networking Fundamentals](./phase-01-networking/) | ⬜ Not Started | `░░░░░░░░░░` 0% |
+| 01 | [Networking Fundamentals](./phase-01-networking/) | 🟡 In Progress | `░░░░░░░░░░` 2% |
 | 02 | [Windows Essentials](./phase-02-windows/) | ⬜ Not Started | `░░░░░░░░░░` 0% |
 | 03 | [Linux Command Line](./phase-03-linux/) | ⬜ Not Started | `░░░░░░░░░░` 0% |
 | 04 | [Scripting & Automation](./phase-04-scripting/) | ⬜ Not Started | `░░░░░░░░░░` 0% |
