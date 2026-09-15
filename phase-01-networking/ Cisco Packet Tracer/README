@@ -1,233 +1,184 @@
-# 🌐 Cisco Packet Tracer Learning Roadmap
+[← Back to Phase 01](./README.md)
 
-> From Beginner → CCNA Fundamentals → Cybersecurity Networking
+# 🖧 Cisco Packet Tracer Labs
 
----
-
-# 1️⃣ Networking Fundamentals
-
-| Type | Task |
-|------|------|
-| 📖 THEORY | What is a Network? |
-| 📖 THEORY | LAN, WAN, MAN, PAN |
-| 📖 THEORY | Network Devices (Router, Switch, Hub, Firewall) |
-| 📖 THEORY | OSI Model (7 Layers) |
-| 📖 THEORY | TCP/IP Model |
-| 📖 THEORY | Encapsulation Process |
-| 📖 THEORY | Ports & Protocols |
-| 🛠️ PRACTICAL | Build a simple PC-to-PC network |
-| 🛠️ PRACTICAL | Test connectivity using Ping |
-
-### Checklist
-
-- [ ] Know OSI Model
-- [ ] Know TCP/IP Model
-- [ ] Understand encapsulation
-- [ ] Explain common protocols
+> **Tool:** Cisco Packet Tracer — Download free at netacad.com
+> **Type:** 🛠️ PRACTICAL — All hands-on lab work
 
 ---
 
-# 2️⃣ IP Addressing & Subnetting
+## What is Cisco Packet Tracer?
 
-| Type | Task |
-|------|------|
-| 📖 THEORY | IPv4 Structure |
-| 📖 THEORY | Public vs Private IP |
-| 📖 THEORY | CIDR Notation |
-| 📖 THEORY | Subnet Masks |
-| 📖 THEORY | NAT Basics |
-| 📖 THEORY | IPv6 Basics |
-| 🛠️ PRACTICAL | Configure Static IPs |
-| 🛠️ PRACTICAL | Calculate Network Address |
-| 🛠️ PRACTICAL | Calculate Broadcast Address |
-| 🛠️ PRACTICAL | Practice Subnetting |
-
-### Checklist
-
-- [ ] Know private IP ranges
-- [ ] Calculate subnet ranges
-- [ ] Configure static IPs
-- [ ] Understand NAT
+Cisco Packet Tracer is a network simulation tool that lets you build and test real network topologies without physical hardware. Every lab you build here directly maps to skills SOC analysts use daily — understanding how traffic flows, how devices communicate, and how attacks move through a network.
 
 ---
 
-# 3️⃣ Switching
+## ⚙️ Setup
 
-| Type | Task |
-|------|------|
-| 📖 THEORY | MAC Address |
-| 📖 THEORY | ARP Protocol |
-| 📖 THEORY | Hub vs Switch |
-| 📖 THEORY | MAC Address Table |
-| 🛠️ PRACTICAL | Connect PCs through Switch |
-| 🛠️ PRACTICAL | Verify MAC Learning |
-| 🛠️ PRACTICAL | Use show mac-address-table |
-
-### Checklist
-
-- [ ] Understand switching
-- [ ] Explain ARP
-- [ ] Verify MAC table
+- [ ] Created free account at netacad.com
+- [ ] Downloaded and installed Cisco Packet Tracer
+- [ ] Completed the built-in intro tutorial
 
 ---
 
-# 4️⃣ VLANs
+## Lab 01 — Basic LAN
 
-| Type | Task |
-|------|------|
-| 📖 THEORY | VLAN Concepts |
-| 📖 THEORY | Access Ports |
-| 📖 THEORY | Trunk Ports |
-| 📖 THEORY | Inter-VLAN Routing |
-| 🛠️ PRACTICAL | Create VLANs |
-| 🛠️ PRACTICAL | Assign Ports |
-| 🛠️ PRACTICAL | Configure Trunks |
+> **Goal:** Connect PCs through a switch and verify communication
 
-### Checklist
+**Devices needed:** 2 PCs, 1 Switch
 
-- [ ] Create VLANs
-- [ ] Configure Trunks
-- [ ] Test VLAN Communication
+**Steps:**
+- [ ] Added 2 PCs and 1 switch to the workspace
+- [ ] Connected PCs to switch using copper straight-through cable
+- [ ] Assigned static IPs — PC1: 192.168.1.1, PC2: 192.168.1.2, Subnet: 255.255.255.0
+- [ ] Pinged PC2 from PC1 — got successful reply
+- [ ] Used simulation mode to watch the packet travel
+
+**What I learned:**
+> *(write what you learned here after completing)*
 
 ---
 
-# 5️⃣ Routing
+## Lab 02 — Routed Network
 
-| Type | Task |
-|------|------|
-| 📖 THEORY | Router Basics |
-| 📖 THEORY | Routing Tables |
-| 📖 THEORY | Static Routing |
-| 📖 THEORY | Default Route |
-| 📖 THEORY | Dynamic Routing Concepts |
-| 🛠️ PRACTICAL | Configure Static Routes |
-| 🛠️ PRACTICAL | Configure Default Route |
-| 🛠️ PRACTICAL | Verify Routing Table |
+> **Goal:** Connect two separate LANs through a router
 
-### Checklist
+**Devices needed:** 4 PCs, 2 Switches, 1 Router
 
-- [ ] Configure static routes
-- [ ] Verify routing table
-- [ ] Troubleshoot routing issues
+**Steps:**
+- [ ] Built LAN 1 — 192.168.1.0/24
+- [ ] Built LAN 2 — 192.168.2.0/24
+- [ ] Connected both switches to router
+- [ ] Configured router interfaces with correct IPs
+- [ ] Set default gateway on all PCs
+- [ ] Pinged from LAN 1 to LAN 2 successfully
+- [ ] Watched packet travel through router in simulation mode
 
----
-
-# 6️⃣ DHCP & DNS
-
-| Type | Task |
-|------|------|
-| 📖 THEORY | DHCP Process |
-| 📖 THEORY | DNS Resolution |
-| 📖 THEORY | Client-Server Model |
-| 🛠️ PRACTICAL | Configure DHCP Server |
-| 🛠️ PRACTICAL | Configure DNS Server |
-| 🛠️ PRACTICAL | Test Name Resolution |
-
-### Checklist
-
-- [ ] Configure DHCP
-- [ ] Configure DNS
-- [ ] Verify IP assignment
+**What I learned:**
+> *(write what you learned here after completing)*
 
 ---
 
-# 7️⃣ Access Control Lists (ACL)
+## Lab 03 — DHCP Configuration
 
-| Type | Task |
-|------|------|
-| 📖 THEORY | Standard ACL |
-| 📖 THEORY | Extended ACL |
-| 📖 THEORY | ACL Placement Rules |
-| 🛠️ PRACTICAL | Create Standard ACL |
-| 🛠️ PRACTICAL | Create Extended ACL |
-| 🛠️ PRACTICAL | Restrict Traffic |
+> **Goal:** Let a router automatically assign IPs to devices
 
-### Checklist
+**Devices needed:** 3 PCs, 1 Switch, 1 Router
 
-- [ ] Configure ACLs
-- [ ] Verify filtering
-- [ ] Troubleshoot ACLs
+**Steps:**
+- [ ] Configured DHCP pool on router
+- [ ] Set PCs to obtain IP automatically
+- [ ] Verified each PC received an IP from the pool
+- [ ] Checked assigned IPs using `ipconfig` on each PC
+
+**What I learned:**
+> *(write what you learned here after completing)*
 
 ---
 
-# 8️⃣ Network Security
+## Lab 04 — DNS Setup
 
-| Type | Task |
-|------|------|
-| 📖 THEORY | CIA Triad |
-| 📖 THEORY | Threats & Vulnerabilities |
-| 📖 THEORY | Firewalls |
-| 📖 THEORY | IDS & IPS |
-| 📖 THEORY | VPN Basics |
-| 🛠️ PRACTICAL | Configure Basic Security |
-| 🛠️ PRACTICAL | Test ACL Security |
+> **Goal:** Resolve domain names to IPs inside a simulated network
 
-### Checklist
+**Devices needed:** 3 PCs, 1 Switch, 1 Router, 1 Server
 
-- [ ] Understand network threats
-- [ ] Understand firewalls
-- [ ] Understand VPNs
+**Steps:**
+- [ ] Added a server and configured DNS service
+- [ ] Created DNS record — test.local → 192.168.1.10
+- [ ] Set DNS server IP on all PCs
+- [ ] Pinged test.local from a PC — resolved successfully
+
+**What I learned:**
+> *(write what you learned here after completing)*
 
 ---
 
-# 9️⃣ Troubleshooting
+## Lab 05 — VLAN Configuration
 
-| Type | Task |
-|------|------|
-| 📖 THEORY | Troubleshooting Methodology |
-| 📖 THEORY | OSI Troubleshooting |
-| 🛠️ PRACTICAL | Use Ping |
-| 🛠️ PRACTICAL | Use Tracert |
-| 🛠️ PRACTICAL | Use ipconfig |
-| 🛠️ PRACTICAL | Fix Broken Networks |
+> **Goal:** Separate traffic by department using VLANs
 
-### Checklist
+**Devices needed:** 4 PCs, 1 Managed Switch
 
-- [ ] Troubleshoot connectivity
-- [ ] Use diagnostic commands
-- [ ] Identify routing issues
+**Steps:**
+- [ ] Created VLAN 10 (HR) and VLAN 20 (IT) on switch
+- [ ] Assigned ports to correct VLANs
+- [ ] Verified HR PCs cannot ping IT PCs
+- [ ] Verified PCs in same VLAN can communicate
+
+**What I learned:**
+> *(write what you learned here after completing)*
 
 ---
 
-# 🔟 Mini Projects
+## Lab 06 — Inter-VLAN Routing
 
-| Project | Skills |
-|----------|--------|
-| Small Office Network | IP Addressing, Switching |
-| College Network | VLANs, Routing |
-| Enterprise Network | ACLs, DHCP, DNS |
-| Secure Network | Security, ACLs |
-| Multi-Branch Company | Routing, VLANs |
+> **Goal:** Allow VLANs to communicate through a router
 
-### Checklist
+**Devices needed:** 4 PCs, 1 Managed Switch, 1 Router
 
-- [ ] Build Office Network
-- [ ] Build College Network
-- [ ] Build Enterprise Network
-- [ ] Document Projects
+**Steps:**
+- [ ] Configured trunk port between switch and router
+- [ ] Created subinterfaces on router for each VLAN
+- [ ] Set default gateways on PCs
+- [ ] Verified VLAN 10 can ping VLAN 20 through router
+
+**What I learned:**
+> *(write what you learned here after completing)*
 
 ---
 
-# 📊 Progress Tracker
+## Lab 07 — Firewall and DMZ
 
-- [ ] Networking Fundamentals
-- [ ] IP Addressing & Subnetting
-- [ ] Switching
-- [ ] VLANs
-- [ ] Routing
-- [ ] DHCP & DNS
-- [ ] ACLs
-- [ ] Network Security
-- [ ] Troubleshooting
-- [ ] Mini Projects
+> **Goal:** Build a network with a firewall separating internal and public zones
+
+**Devices needed:** PCs, Switch, Router, Server
+
+**Steps:**
+- [ ] Built internal LAN (private)
+- [ ] Built DMZ zone with a web server
+- [ ] Configured firewall rules — internal can reach DMZ, external cannot reach internal
+- [ ] Tested access from different zones
+- [ ] Verified firewall blocks unauthorized traffic
+
+**What I learned:**
+> *(write what you learned here after completing)*
 
 ---
 
-## 👨‍💻 Author
+## Lab 08 — Protocol Simulation
 
-**Vivek A K**
+> **Goal:** Watch HTTP, FTP, DNS packets move through the network
 
-🛡️ Aspiring SOC Analyst  
-🌐 Networking & Cybersecurity Enthusiast
+**Steps:**
+- [ ] Built a basic network with a server
+- [ ] Switched to simulation mode
+- [ ] Generated HTTP traffic — watched packets layer by layer
+- [ ] Generated FTP traffic — observed protocol behavior
+- [ ] Generated DNS query — watched resolution process
+- [ ] Identified which OSI layer each protocol operates at
 
-> "Learning Networking one packet at a time."
+**What I learned:**
+> *(write what you learned here after completing)*
+
+---
+
+## ✅ Completion Checklist
+
+- [ ] Lab 01 — Basic LAN
+- [ ] Lab 02 — Routed Network
+- [ ] Lab 03 — DHCP Configuration
+- [ ] Lab 04 — DNS Setup
+- [ ] Lab 05 — VLAN Configuration
+- [ ] Lab 06 — Inter-VLAN Routing
+- [ ] Lab 07 — Firewall and DMZ
+- [ ] Lab 08 — Protocol Simulation
+
+---
+
+## 📝 My Notes
+
+> *(Add your own notes, shortcuts, and tips here as you learn)*
+
+---
+
+[← Back to Phase 01](./README.md)
