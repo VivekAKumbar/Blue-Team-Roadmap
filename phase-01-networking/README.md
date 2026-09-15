@@ -20,7 +20,7 @@
 | 📖 THEORY | How encapsulation works — data → segment → packet → frame → bits |
 | 📖 THEORY | Which layer an attack targets and why it matters for detection |
 
-- [ ] OSI model memorized — can name all 7 layers in order
+- [x] OSI model memorized — can name all 7 layers in order
 - [ ] Can explain what happens at each layer in plain English
 - [ ] Can map TCP/IP layers to OSI layers
 
