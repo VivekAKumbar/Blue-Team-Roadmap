@@ -21,7 +21,7 @@
 | 📖 THEORY | Which layer an attack targets and why it matters for detection |
 
 - [x] OSI model memorized — can name all 7 layers in order
-- [ ] Can explain what happens at each layer in plain English
+- [x] Can explain what happens at each layer in plain English
 - [ ] Can map TCP/IP layers to OSI layers
 
 ---
