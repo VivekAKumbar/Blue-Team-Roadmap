@@ -15,9 +15,9 @@ Cisco Packet Tracer is a network simulation tool that lets you build and test re
 
 ## ⚙️ Setup
 
-- [ ] Created free account at netacad.com
-- [ ] Downloaded and installed Cisco Packet Tracer
-- [ ] Completed the built-in intro tutorial
+- [x] Created free account at netacad.com
+- [x] Downloaded and installed Cisco Packet Tracer
+- [x] Completed the built-in intro tutorial
 
 ---
 
@@ -28,14 +28,14 @@ Cisco Packet Tracer is a network simulation tool that lets you build and test re
 **Devices needed:** 2 PCs, 1 Switch
 
 **Steps:**
-- [ ] Added 2 PCs and 1 switch to the workspace
-- [ ] Connected PCs to switch using copper straight-through cable
-- [ ] Assigned static IPs — PC1: 192.168.1.1, PC2: 192.168.1.2, Subnet: 255.255.255.0
-- [ ] Pinged PC2 from PC1 — got successful reply
-- [ ] Used simulation mode to watch the packet travel
+- [x] Added 2 PCs and 1 switch to the workspace
+- [x] Connected PCs to switch using copper straight-through cable
+- [x] Assigned static IPs — PC1: 192.168.1.1, PC2: 192.168.1.2, Subnet: 255.255.255.0
+- [x] Pinged PC2 from PC1 — got successful reply
+- [x] Used simulation mode to watch the packet travel
 
 **What I learned:**
-> *(write what you learned here after completing)*
+> *i learned how the packet travel*
 
 ---
 
