@@ -164,7 +164,7 @@ Cisco Packet Tracer is a network simulation tool that lets you build and test re
 
 ## ✅ Completion Checklist
 
-- [ ] Lab 01 — Basic LAN
+- [x] Lab 01 — Basic LAN
 - [ ] Lab 02 — Routed Network
 - [ ] Lab 03 — DHCP Configuration
 - [ ] Lab 04 — DNS Setup
