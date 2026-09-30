@@ -22,7 +22,7 @@
 
 - [x] OSI model memorized — can name all 7 layers in order
 - [x] Can explain what happens at each layer in plain English
-- [ ] Can map TCP/IP layers to OSI layers
+- [x] Can map TCP/IP layers to OSI layers
 
 ---
 
