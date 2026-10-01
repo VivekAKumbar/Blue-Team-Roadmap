@@ -46,8 +46,8 @@ Cisco Packet Tracer is a network simulation tool that lets you build and test re
 **Devices needed:** 4 PCs, 2 Switches, 1 Router
 
 **Steps:**
-- [ ] Built LAN 1 — 192.168.1.0/24
-- [ ] Built LAN 2 — 192.168.2.0/24
+- [x] Built LAN 1 — 192.168.1.0/24
+- [x] Built LAN 2 — 192.168.2.0/24
 - [ ] Connected both switches to router
 - [ ] Configured router interfaces with correct IPs
 - [ ] Set default gateway on all PCs
