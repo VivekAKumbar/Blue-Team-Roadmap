@@ -39,7 +39,7 @@
 | 🛠️ PRACTICAL | Given an IP + subnet mask, identify network address, broadcast, and host range |
 | 🛠️ PRACTICAL | Configure static IPs on devices in Cisco Packet Tracer |
 
-- [ ] Know all private IP ranges from memory
+- [x] Know all private IP ranges from memory
 - [ ] Can subnet an IP without a calculator
 - [ ] Can identify if an IP is private or public instantly
 - [ ] Completed 20+ subnetting drills on subnettingpractice.com
