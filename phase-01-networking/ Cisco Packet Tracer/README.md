@@ -117,13 +117,13 @@ Cisco Packet Tracer is a network simulation tool that lets you build and test re
 **Devices needed:** 4 PCs, 1 Managed Switch, 1 Router
 
 **Steps:**
-- [ ] Configured trunk port between switch and router
-- [ ] Created subinterfaces on router for each VLAN
-- [ ] Set default gateways on PCs
-- [ ] Verified VLAN 10 can ping VLAN 20 through router
+- [x] Configured trunk port between switch and router
+- [x] Created subinterfaces on router for each VLAN
+- [x] Set default gateways on PCs
+- [x] Verified VLAN 10 can ping VLAN 20 through router
 
 **What I learned:**
-> *(write what you learned here after completing)*
+> *(Allow VLANs to communicate through a router)*
 
 ---
 
