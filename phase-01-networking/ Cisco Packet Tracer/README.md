@@ -83,13 +83,13 @@ Cisco Packet Tracer is a network simulation tool that lets you build and test re
 **Devices needed:** 3 PCs, 1 Switch, 1 Router, 1 Server
 
 **Steps:**
-- [ ] Added a server and configured DNS service
-- [ ] Created DNS record — test.local → 192.168.1.10
-- [ ] Set DNS server IP on all PCs
-- [ ] Pinged test.local from a PC — resolved successfully
+- [x] Added a server and configured DNS service
+- [x] Created DNS record — test.local → 192.168.1.10
+- [x] Set DNS server IP on all PCs
+- [x] Pinged test.local from a PC — resolved successfully
 
 **What I learned:**
-> *(write what you learned here after completing)*
+> *(Resolve domain names to IPs inside a simulated network)*
 
 ---
 
