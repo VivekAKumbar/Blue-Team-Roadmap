@@ -55,7 +55,7 @@ Cisco Packet Tracer is a network simulation tool that lets you build and test re
 - [x] Watched packet travel through router in simulation mode
 
 **What I learned:**
-> *(write what you learned here after completing)*
+> *(Connect two separate LANs through a router)*
 
 ---
 
