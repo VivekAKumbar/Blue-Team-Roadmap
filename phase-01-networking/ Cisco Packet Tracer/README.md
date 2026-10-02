@@ -100,13 +100,13 @@ Cisco Packet Tracer is a network simulation tool that lets you build and test re
 **Devices needed:** 4 PCs, 1 Managed Switch
 
 **Steps:**
-- [ ] Created VLAN 10 (HR) and VLAN 20 (IT) on switch
-- [ ] Assigned ports to correct VLANs
-- [ ] Verified HR PCs cannot ping IT PCs
-- [ ] Verified PCs in same VLAN can communicate
+- [x] Created VLAN 10 (HR) and VLAN 20 (IT) on switch
+- [x] Assigned ports to correct VLANs
+- [x] Verified HR PCs cannot ping IT PCs
+- [x] Verified PCs in same VLAN can communicate
 
 **What I learned:**
-> *(write what you learned here after completing)*
+> *(Separate traffic by department using VLANs)*
 
 ---
 
