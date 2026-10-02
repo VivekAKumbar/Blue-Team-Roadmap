@@ -66,13 +66,13 @@ Cisco Packet Tracer is a network simulation tool that lets you build and test re
 **Devices needed:** 3 PCs, 1 Switch, 1 Router
 
 **Steps:**
-- [ ] Configured DHCP pool on router
-- [ ] Set PCs to obtain IP automatically
-- [ ] Verified each PC received an IP from the pool
-- [ ] Checked assigned IPs using `ipconfig` on each PC
+- [x] Configured DHCP pool on router
+- [x] Set PCs to obtain IP automatically
+- [x] Verified each PC received an IP from the pool
+- [x] Checked assigned IPs using `ipconfig` on each PC
 
 **What I learned:**
-> *(write what you learned here after completing)*
+> *(a router automatically assign IPs to devices)*
 
 ---
 
