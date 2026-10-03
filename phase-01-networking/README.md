@@ -40,9 +40,9 @@
 | 🛠️ PRACTICAL | Configure static IPs on devices in Cisco Packet Tracer |
 
 - [x] Know all private IP ranges from memory
-- [ ] Can subnet an IP without a calculator
-- [ ] Can identify if an IP is private or public instantly
-- [ ] Completed 20+ subnetting drills on subnettingpractice.com
+- [x] Can subnet an IP without a calculator
+- [x] Can identify if an IP is private or public instantly
+- [x] Completed 20+ subnetting drills on subnettingpractice.com
 
 ---
 
