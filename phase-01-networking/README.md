@@ -95,17 +95,17 @@
 > **Tool:** Cisco Packet Tracer — Download free at netacad.com
 > All tasks in this section are hands-on lab work.
 
-- [ ] Downloaded and installed Cisco Packet Tracer
-- [ ] Built a basic LAN — PCs connected through a switch
-- [ ] Built a routed network — two LANs connected through a router
-- [ ] Configured static IP addresses and verified connectivity with ping
-- [ ] Configured DHCP on a router — devices get IPs automatically
-- [ ] Set up DNS resolution in a simulated network
-- [ ] Built a VLAN topology — separated traffic by department
-- [ ] Configured inter-VLAN routing
-- [ ] Simulated HTTP, FTP, DNS traffic and watched the flow in simulation mode
-- [ ] Used simulation mode to watch packets move layer by layer through OSI
-- [ ] Built a topology with a firewall and DMZ zone
+- [x] Downloaded and installed Cisco Packet Tracer
+- [x] Built a basic LAN — PCs connected through a switch
+- [x] Built a routed network — two LANs connected through a router
+- [x] Configured static IP addresses and verified connectivity with ping
+- [x] Configured DHCP on a router — devices get IPs automatically
+- [x] Set up DNS resolution in a simulated network
+- [x] Built a VLAN topology — separated traffic by department
+- [x] Configured inter-VLAN routing
+- [x] Simulated HTTP, FTP, DNS traffic and watched the flow in simulation mode
+- [x] Used simulation mode to watch packets move layer by layer through OSI
+- [x] Built a topology with a firewall and DMZ zone
 
 ---
 
@@ -149,7 +149,7 @@
 
 **🛠️ Practical Done**
 - [ ] Can subnet an IP without a calculator
-- [ ] Built 3+ topologies in Cisco Packet Tracer
+- [x] Built 3+ topologies in Cisco Packet Tracer
 - [ ] Captured and filtered live traffic in Wireshark
 - [ ] Analyzed a real malware PCAP
 - [ ] Completed TryHackMe Pre-Security networking rooms
