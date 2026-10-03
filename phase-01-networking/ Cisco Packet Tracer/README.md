@@ -134,14 +134,14 @@ Cisco Packet Tracer is a network simulation tool that lets you build and test re
 **Devices needed:** PCs, Switch, Router, Server
 
 **Steps:**
-- [ ] Built internal LAN (private)
-- [ ] Built DMZ zone with a web server
-- [ ] Configured firewall rules — internal can reach DMZ, external cannot reach internal
-- [ ] Tested access from different zones
-- [ ] Verified firewall blocks unauthorized traffic
+- [x] Built internal LAN (private)
+- [x] Built DMZ zone with a web server
+- [x] Configured firewall rules — internal can reach DMZ, external cannot reach internal
+- [x] Tested access from different zones
+- [x] Verified firewall blocks unauthorized traffic
 
 **What I learned:**
-> *(write what you learned here after completing)*
+> *(Build a network with a firewall separating internal and public zones)*
 
 ---
 
@@ -150,34 +150,34 @@ Cisco Packet Tracer is a network simulation tool that lets you build and test re
 > **Goal:** Watch HTTP, FTP, DNS packets move through the network
 
 **Steps:**
-- [ ] Built a basic network with a server
-- [ ] Switched to simulation mode
-- [ ] Generated HTTP traffic — watched packets layer by layer
-- [ ] Generated FTP traffic — observed protocol behavior
-- [ ] Generated DNS query — watched resolution process
-- [ ] Identified which OSI layer each protocol operates at
+- [x] Built a basic network with a server
+- [x] Switched to simulation mode
+- [x] Generated HTTP traffic — watched packets layer by layer
+- [x] Generated FTP traffic — observed protocol behavior
+- [x] Generated DNS query — watched resolution process
+- [x] Identified which OSI layer each protocol operates at
 
 **What I learned:**
-> *(write what you learned here after completing)*
+> *(HTTP, FTP, DNS packets move through the network)*
 
 ---
 
 ## ✅ Completion Checklist
 
 - [x] Lab 01 — Basic LAN
-- [ ] Lab 02 — Routed Network
-- [ ] Lab 03 — DHCP Configuration
-- [ ] Lab 04 — DNS Setup
-- [ ] Lab 05 — VLAN Configuration
-- [ ] Lab 06 — Inter-VLAN Routing
-- [ ] Lab 07 — Firewall and DMZ
-- [ ] Lab 08 — Protocol Simulation
+- [x] Lab 02 — Routed Network
+- [x] Lab 03 — DHCP Configuration
+- [x] Lab 04 — DNS Setup
+- [x] Lab 05 — VLAN Configuration
+- [x] Lab 06 — Inter-VLAN Routing
+- [x] Lab 07 — Firewall and DMZ
+- [x] Lab 08 — Protocol Simulation
 
 ---
 
 ## 📝 My Notes
 
-> *(Add your own notes, shortcuts, and tips here as you learn)*
+> *(i uplodade all my files )*
 
 ---
 
