@@ -141,7 +141,7 @@
 ## ✅ Phase 01 Completion Checklist
 
 **📖 Theory Done**
-- [ ] Can explain OSI and TCP/IP stack without notes
+- [x] Can explain OSI and TCP/IP stack without notes
 - [ ] Know all private IP ranges from memory
 - [ ] Memorized all critical protocols and their ports
 - [ ] Can explain the role of every network device
