@@ -114,8 +114,8 @@
 > **Tool:** Wireshark — Download free at wireshark.org
 > All tasks in this section are hands-on lab work.
 
-- [ ] Installed Wireshark on Kali Linux VM
-- [ ] Captured live traffic on a network interface
+- [x] Installed Wireshark on Kali Linux VM
+- [x] Captured live traffic on a network interface
 - [ ] Applied display filters — ip.addr, tcp.port, http, dns
 - [ ] Applied capture filters to reduce noise before capturing
 - [ ] Followed a TCP stream end to end
