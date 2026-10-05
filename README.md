@@ -8,7 +8,7 @@
 
 <br/>
 
-<a href="https://github.com/VivekAKumbar/blue-team-roadmap"><img src="https://img.shields.io/badge/Overall_Progress-4%25-red?style=flat-square"/></a>
+<a href="https://github.com/VivekAKumbar/blue-team-roadmap"><img src="https://img.shields.io/badge/Overall_Progress-5%25-red?style=flat-square"/></a>
 <a href="https://github.com/VivekAKumbar/blue-team-roadmap/tree/main/phase-01-networking"><img src="https://img.shields.io/badge/Current_Phase-01_Networking-1a365d?style=flat-square"/></a>
 <a href="https://github.com/VivekAKumbar/blue-team-roadmap"><img src="https://img.shields.io/badge/Started-Sep_2026-green?style=flat-square"/></a>
 <a href="https://github.com/VivekAKumbar/blue-team-roadmap"><img src="https://img.shields.io/badge/Goal-SOC_Analyst_Role-gold?style=flat-square"/></a>
@@ -18,7 +18,7 @@
 ---
 
 <!-- OVERALL_START -->
-**Overall Progress:** `░░░░░░░░░░` 4% (21/441 tasks)
+**Overall Progress:** `░░░░░░░░░░` 5% (23/441 tasks)
 <!-- OVERALL_END -->
 
 ---
@@ -28,7 +28,7 @@
 <!-- PROGRESS_START -->
 | # | Phase | Status | Progress |
 |:-:|-------|:------:|----------|
-| 01 | [Networking Fundamentals](./phase-01-networking/) | 🟡 In Progress | `█████░░░░░` 50% |
+| 01 | [Networking Fundamentals](./phase-01-networking/) | 🟡 In Progress | `█████░░░░░` 54% |
 | 02 | [Windows Essentials](./phase-02-windows/) | ⬜ Not Started | `░░░░░░░░░░` 0% |
 | 03 | [Linux Command Line](./phase-03-linux/) | ⬜ Not Started | `░░░░░░░░░░` 0% |
 | 04 | [Scripting & Automation](./phase-04-scripting/) | ⬜ Not Started | `░░░░░░░░░░` 0% |
