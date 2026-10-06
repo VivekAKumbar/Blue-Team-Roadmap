@@ -177,7 +177,7 @@ Cisco Packet Tracer is a network simulation tool that lets you build and test re
 
 ## 📝 My Notes
 
-> *(i uplodade all my files )*
+> *i uplodade all my files *
 
 ---
 
