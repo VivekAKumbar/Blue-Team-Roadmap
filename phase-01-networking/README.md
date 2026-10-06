@@ -116,10 +116,10 @@
 
 - [x] Installed Wireshark on Kali Linux VM
 - [x] Captured live traffic on a network interface
-- [ ] Applied display filters — ip.addr, tcp.port, http, dns
-- [ ] Applied capture filters to reduce noise before capturing
-- [ ] Followed a TCP stream end to end
-- [ ] Identified HTTP, DNS, FTP traffic visually by color and protocol column
+- [x] Applied display filters — ip.addr, tcp.port, http, dns
+- [x] Applied capture filters to reduce noise before capturing
+- [x] Followed a TCP stream end to end
+- [x] Identified HTTP, DNS, FTP traffic visually by color and protocol column
 - [ ] Spotted an anomaly — unusual port, unknown IP, or large transfer
 - [ ] Opened a PCAP from malware-traffic-analysis.net and analyzed it
 
@@ -143,14 +143,14 @@
 **📖 Theory Done**
 - [x] Can explain OSI and TCP/IP stack without notes
 - [x] Know all private IP ranges from memory
-- [ ] Memorized all critical protocols and their ports
+- [x] Memorized all critical protocols and their ports
 - [ ] Can explain the role of every network device
 - [ ] Understand IDS vs IPS, stateful vs stateless firewall
 
 **🛠️ Practical Done**
 - [ ] Can subnet an IP without a calculator
 - [x] Built 3+ topologies in Cisco Packet Tracer
-- [ ] Captured and filtered live traffic in Wireshark
+- [x] Captured and filtered live traffic in Wireshark
 - [ ] Analyzed a real malware PCAP
 - [ ] Completed TryHackMe Pre-Security networking rooms
 - [ ] Completed 20+ subnetting drills
