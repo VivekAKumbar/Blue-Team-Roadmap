@@ -81,15 +81,15 @@ This repo documents all my Wireshark packet analysis labs as part of my Blue Tea
 > **Goal:** Analyze DNS queries and responses
 > **Type:** 🛠️ PRACTICAL
 
-- [ ] Applied display filter: `dns`
-- [ ] Identified DNS query and response packets
-- [ ] Found which domains were resolved
-- [ ] Checked for unusually long subdomain names (DNS tunneling indicator)
-- [ ] Checked for high volume of DNS queries to one domain
-- [ ] Uploaded PCAP to this repo
+- [x] Applied display filter: `dns`
+- [x] Identified DNS query and response packets
+- [x] Found which domains were resolved
+- [x] Checked for unusually long subdomain names (DNS tunneling indicator)
+- [x] Checked for high volume of DNS queries to one domain
+- [x] Uploaded PCAP to this repo
 
 **What I found:**
-> *(write your findings here)*
+> *(Analyze DNS queries and responses)*
 
 **Security relevance:**
 > DNS tunneling hides data exfiltration inside DNS queries — long subdomains are the giveaway
@@ -101,16 +101,16 @@ This repo documents all my Wireshark packet analysis labs as part of my Blue Tea
 > **Goal:** Identify and understand the TCP connection process
 > **Type:** 🛠️ PRACTICAL
 
-- [ ] Applied display filter: `tcp`
-- [ ] Found a SYN packet
-- [ ] Found the matching SYN-ACK packet
-- [ ] Found the final ACK packet
-- [ ] Followed the full TCP stream
-- [ ] Identified what application data followed the handshake
-- [ ] Uploaded PCAP to this repo
+- [x] Applied display filter: `tcp`
+- [x] Found a SYN packet
+- [x] Found the matching SYN-ACK packet
+- [x] Found the final ACK packet
+- [x] Followed the full TCP stream
+- [x] Identified what application data followed the handshake
+- [x] Uploaded PCAP to this repo
 
 **What I found:**
-> *(write your findings here)*
+> *( Identify and understand the TCP connection process)*
 
 **Security relevance:**
 > SYN flood attacks send thousands of SYN packets without completing the handshake — causes DoS
@@ -162,14 +162,14 @@ This repo documents all my Wireshark packet analysis labs as part of my Blue Tea
 > **Goal:** Understand ARP and detect ARP spoofing
 > **Type:** 🛠️ PRACTICAL
 
-- [ ] Applied display filter: `arp`
-- [ ] Identified ARP request and reply packets
-- [ ] Found which MAC address corresponds to which IP
-- [ ] Identified duplicate IP-to-MAC mappings (ARP spoofing indicator)
-- [ ] Uploaded PCAP to this repo
+- [x] Applied display filter: `arp`
+- [x] Identified ARP request and reply packets
+- [x] Found which MAC address corresponds to which IP
+- [x] Identified duplicate IP-to-MAC mappings (ARP spoofing indicator)
+- [x] Uploaded PCAP to this repo
 
 **What I found:**
-> *(write your findings here)*
+> *(Understand ARP and detect ARP spoofing)*
 
 **Security relevance:**
 > ARP spoofing lets an attacker redirect traffic through their machine — classic MITM attack
