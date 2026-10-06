@@ -25,13 +25,13 @@ This repo documents all my Wireshark packet analysis labs as part of my Blue Tea
 
 | # | Lab | Status | PCAP File |
 |:-:|-----|:------:|-----------|
-| 01 | [Basic Traffic Capture](#lab-01--basic-traffic-capture) | ⬜ Not Started | — |
-| 02 | [HTTP Traffic Analysis](#lab-02--http-traffic-analysis) | ⬜ Not Started | — |
-| 03 | [DNS Analysis](#lab-03--dns-analysis) | ⬜ Not Started | — |
-| 04 | [TCP Three-Way Handshake](#lab-04--tcp-three-way-handshake) | ⬜ Not Started | — |
+| 01 | [Basic Traffic Capture](#lab-01--basic-traffic-capture) | ⬜ COMPLETED | ✅ |
+| 02 | [HTTP Traffic Analysis](#lab-02--http-traffic-analysis) | ⬜ COMPLETED | ✅ |
+| 03 | [DNS Analysis](#lab-03--dns-analysis) | ⬜ COMPLETED  | ✅ |
+| 04 | [TCP Three-Way Handshake](#lab-04--tcp-three-way-handshake) | ⬜ COMPLETED | ✅ |
 | 05 | [FTP Traffic Analysis](#lab-05--ftp-traffic-analysis) | ⬜ Not Started | — |
 | 06 | [ICMP & Ping Analysis](#lab-06--icmp--ping-analysis) | ⬜ Not Started | — |
-| 07 | [ARP Analysis](#lab-07--arp-analysis) | ⬜ Not Started | — |
+| 07 | [ARP Analysis](#lab-07--arp-analysis) | ⬜ COMPLETED  | ✅ |
 | 08 | [Malware PCAP Analysis](#lab-08--malware-pcap-analysis) | ⬜ Not Started | — |
 | 09 | [Port Scan Detection](#lab-09--port-scan-detection) | ⬜ Not Started | — |
 | 10 | [C2 Traffic Detection](#lab-10--c2-traffic-detection) | ⬜ Not Started | — |
