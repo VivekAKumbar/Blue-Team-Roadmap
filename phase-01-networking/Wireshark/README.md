@@ -51,10 +51,8 @@ This repo documents all my Wireshark packet analysis labs as part of my Blue Tea
 - [x] Uploaded PCAP to this repo
 
 **What I found:**
-> *(write your findings here)*
+> *(Capture live traffic and identify common protocols)*
 
-**Security relevance:**
-> *(what would an analyst look for in this traffic)*
 
 ---
 
@@ -63,15 +61,15 @@ This repo documents all my Wireshark packet analysis labs as part of my Blue Tea
 > **Goal:** Capture and analyze unencrypted HTTP traffic
 > **Type:** 🛠️ PRACTICAL
 
-- [ ] Generated HTTP traffic by visiting an HTTP site
-- [ ] Applied display filter: `http`
-- [ ] Found GET and POST requests
-- [ ] Followed a TCP stream and read the full HTTP conversation
-- [ ] Identified any credentials or sensitive data in plain text
-- [ ] Uploaded PCAP to this repo
+- [x] Generated HTTP traffic by visiting an HTTP site
+- [x] Applied display filter: `http`
+- [x] Found GET and POST requests
+- [x] Followed a TCP stream and read the full HTTP conversation
+- [x] Identified any credentials or sensitive data in plain text
+- [x] Uploaded PCAP to this repo
 
 **What I found:**
-> *(write your findings here)*
+> *(Capture and analyze unencrypted HTTP traffic)*
 
 **Security relevance:**
 > HTTP sends data in plain text — credentials can be stolen with a MITM attack
