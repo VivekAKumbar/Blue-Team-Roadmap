@@ -43,12 +43,12 @@ This repo documents all my Wireshark packet analysis labs as part of my Blue Tea
 > **Goal:** Capture live traffic and identify common protocols
 > **Type:** 🛠️ PRACTICAL
 
-- [ ] Opened Wireshark and selected network interface
-- [ ] Started a live capture
-- [ ] Identified at least 5 different protocols in the capture
-- [ ] Applied display filter: `ip.addr == 192.168.1.1`
-- [ ] Stopped capture and saved as .pcap file
-- [ ] Uploaded PCAP to this repo
+- [x] Opened Wireshark and selected network interface
+- [x] Started a live capture
+- [x] Identified at least 5 different protocols in the capture
+- [x] Applied display filter: `ip.addr == 192.168.1.1`
+- [x] Stopped capture and saved as .pcap file
+- [x] Uploaded PCAP to this repo
 
 **What I found:**
 > *(write your findings here)*
