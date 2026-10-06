@@ -64,8 +64,8 @@
 | 🛠️ PRACTICAL | Simulate HTTP, FTP, DNS traffic in Cisco Packet Tracer |
 | 🛠️ PRACTICAL | Identify protocols visually by port and color in Wireshark |
 
-- [ ] Memorized all protocols and ports above
-- [ ] Can state the security risk of each protocol from memory
+- [x] Memorized all protocols and ports above
+- [x] Can state the security risk of each protocol from memory
 
 ---
 
